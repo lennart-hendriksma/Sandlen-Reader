@@ -1,11 +1,8 @@
 
 * {
 	margin: 0;
-	padding: 10px;
+	padding: 20px;
 	font-size: 11pt;
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
 }
 
 .center{
@@ -18,4 +15,10 @@
 
 .right{
 	text-align: right;
+}
+
+body{
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
