@@ -1,8 +1,11 @@
 
 * {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	font-size: 11pt;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 }
 
 .center{
