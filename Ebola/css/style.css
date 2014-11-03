@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section {
+	display: block;
+}
+
+#page-wrap {
+}
+
+.badge {
+
+}
+
+#badge_1 {
+	width: 510px;
+	height: 230px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -115px -275px;
+}
+
+h1 {
+	font-size: 200px;
+	font-weight: 900;
+	overflow: hidden;
+}
+
+.line {
+	
+	height: 100px;
+	background: #000;
+	position: absolute;
+	top: 65px;
+}
+
+#newsItem {
+	top: 100%;
+	position: absolute;
+ 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}

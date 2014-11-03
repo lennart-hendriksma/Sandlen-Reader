@@ -1,8 +1,9 @@
 
 * {
 	margin: 0;
-	padding: 20px;
-	font-size: 11pt;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;   
 }
 
 .center{
@@ -18,7 +19,61 @@
 }
 
 body{
-		-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+}
+
+.coll {
+	float: left;
+	height: 100%;
+}
+
+#left {
+	width: 30%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#right {
+	width: 70%;
+}
+
+/* unvisited link */
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000;
+}
+
+#right iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+
+}
+
+#max {
+	width: 100%;
+	height: 100%;
+}
+
+#center {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -100px -100px;
+	line-height: 200px;
 }
