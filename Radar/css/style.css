@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section {
+	display: block;
+}
+
+#page-wrap {
+}
+
+
+
+h1 {
+	font-size: 60px;
+	font-weight: 900;
+	overflow: hidden;
+	line-height: 100px;
+	text-align: center;
+}
+
+#badge_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	margin: -250px -250px;
+}
+
+#newsItem {
+	top: 100%;
+	position: absolute;
+ 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#radar {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+}
+
+#radar img {
+	width: 500px;
+	height: 500px;
+}
